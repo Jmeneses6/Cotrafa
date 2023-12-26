@@ -3,8 +3,8 @@ import PutData from "../helpers/putData.js";
 import { USER } from "../helpers/url.js";
 
 let inputName = document.getElementById("name");
-let inputEmail = document.getElementById("email");
-let inputPass = document.getElementById("password");
+let inputEmail = document.getElementById("email ");
+let inputPass = document.getElementById("lastName");
 let btnEdit = document.getElementById("editar");
 let btnGuardar = document.getElementById("guardar");
 let btnEliminar = document.getElementById("eliminar");

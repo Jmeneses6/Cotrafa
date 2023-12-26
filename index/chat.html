@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lista de Chats</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles/navChat.css">
+    <style>
+        body {
+            background-color: #ffccd6; 
+        }
+
+        .card {
+            margin-top: 20px;
+        }
+
+        #chatListContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        #chatList {
+            list-style: none;
+            padding: 0;
+        }
+
+        #chatList li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5" style="margin-bottom: 18rem;">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Chats Disponibles</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group" id="chatList">
+                        <li class="list-group-item"><a href="mensajes.html">Chat 1</a></li>
+                        <li class="list-group-item"><a href="mensajes.html">Chat 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+<footer>
+
+    <button class="btnav">
+        <a href="../index/img.html">
+            <img src="https://res.cloudinary.com/diyagfnif/image/upload/v1703208043/adopcion/gatos/Component_1_mzcedf.png"
+                alt="" class="ft1">
+        </a>
+
+    </button>
+
+
+    <button class="btnav2">
+
+        <a href="../index/chat.html"></a><img src="https://res.cloudinary.com/diyagfnif/image/upload/v1703208320/adopcion/gatos/Component_1_1_etartq.png"
+            alt="" class="ft2">
+        <p class="letra2">Mensajes</p></a>
+
+    </button>
+
+    <a href="../index/fav.html"><button class="btnav3">
+        <img src="https://res.cloudinary.com/diyagfnif/image/upload/v1702613080/adopcion/gatos/Component_3_drrnrs.png"
+            alt="" class="ft3"></a>
+    </button>
+
+    <button class="btnav4">
+
+        <a href="../index/login.html"><img src="https://res.cloudinary.com/diyagfnif/image/upload/v1702613079/adopcion/gatos/Component_2_zxh8bv.png"
+            alt="" class="ft4"></a>
+    </button>
+
+</footer>
+</html>

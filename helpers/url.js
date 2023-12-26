@@ -1,2 +1,2 @@
 export const USER = "http://localhost:3000/Usuarios"
-export const PETS ="https://vercelex-weld.vercel.app/Mascotas"
+export const pets ="https://vercelex-weld.vercel.app/Mascotas"

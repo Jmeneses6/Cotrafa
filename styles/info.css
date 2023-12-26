@@ -1,0 +1,36 @@
+img {
+    width: 24.5rem;
+    height: 24rem;
+    margin-left: -0.5rem;
+    margin-top: -1rem;
+}
+
+.caract {    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    height: 60px;
+    width: 60px;
+    border-color: #A786DF;
+    border-radius: 10%;
+    border-width: 5px;
+}
+
+#return {
+    background-color: #0E172C;
+    color: white;
+    border-color: transparent;
+    margin-left: -0.5rem;
+    float: left;
+    margin-top: -24rem;
+    text-align: center;
+}
+
+#fav {
+    float: right;
+    border-radius: 100%;
+    margin-top: -0.5rem;
+    text-decoration: none;
+    background-color: lightgray;
+    margin-right: 1rem;
+
+}
